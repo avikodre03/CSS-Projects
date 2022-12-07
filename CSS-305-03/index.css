@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 60px;
+    width: 70px;
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainContainer {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainContainerDiv {
+    height: 94%;
+    width: 96%;
+    /* margin: .3rem; */
+    /* border: 2px solid red; */
+    /* background-color:aquamarine; */
+    display: flex;
+
+
+}
+
+.mainContainerDivLeftSection {
+    height: 100%;
+    width: 33.5%;
+    /* border: 2px solid red; */
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgba(227, 136, 38, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.mainContainerDivLeftSectionsedans {
+    height: 90%;
+    width: 90%;
+    /* border: 2px solid black; */
+
+}
+
+.LeftSectionsedansLogo {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+}
+
+.LeftSectionsedansName {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid pink; */
+    display: flex;
+    align-items: center;
+}
+
+.LeftSectionsedansDesc {
+    height: 40%;
+    width: 100%;
+    /* border: 2px solid pink; */
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.LeftSectionsedansDesc p {
+    font: 1em sans-serif;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-size: larger; */
+}
+
+.LeftSectionsedansmore {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+}
+
+.LeftSectionsedansmoreDiv {
+    height: 55%;
+    width: 50%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainerDivMiddleSection {
+    height: 100%;
+    width: 33%;
+    /* border: 2px solid red; */
+    background-color: rgba(0, 105, 112, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.mainContainerDivMiddleSectionSUVS {
+    height: 90%;
+    width: 90%;
+    /* border: 2px solid black; */
+}
+
+.LeftSectionSUVSLogo {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+}
+
+.LeftSectionSUVSName {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid pink; */
+    display: flex;
+    align-items: center;
+}
+
+
+.LeftSectionSUVSDesc {
+    height: 40%;
+    width: 100%;
+    /* border: 2px solid pink; */
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.LeftSectionSUVSDesc p {
+    font: 1em sans-serif;
+
+}
+
+.LeftSectionSUVSmore {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+}
+
+.LeftSectionSUVSmoreDiv {
+    height: 55%;
+    width: 50%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainerDivRightSection {
+    height: 100%;
+    width: 33.5%;
+    /* border: 2px solid red; */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgba(0, 66, 65, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+
+}
+
+.mainContainerDivRightSectionLuxury {
+    height: 90%;
+    width: 90%;
+    /* border: 2px solid black; */
+}
+
+.LeftSectionLuxuryLogo {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+}
+
+.LeftSectionLuxuryName {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid pink; */
+    display: flex;
+    align-items: center;
+
+}
+
+.LeftSectionLuxuryDesc {
+    height: 40%;
+    width: 100%;
+    /* border: 2px solid pink; */
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.LeftSectionLuxuryDesc p {
+    font: 1em sans-serif;
+}
+
+.LeftSectionLuxurymore {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+}
+
+.LeftSectionLuxurymoreDiv {
+    height: 55%;
+    width: 50%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

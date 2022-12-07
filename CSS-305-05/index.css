@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* scroll-behavior: none; */
+}
+
+.mainContainer {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.leftSectionprofile {
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.photoDiv {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    color: purple;
+}
+
+.name h4 {
+    color: fuchsia;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+.photo {
+    height: 50px;
+    width: 50px;
+    /* border: 2px solid red; */
+    background-image: url(./avi.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+
+}
+
+
+.stream {
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid green; */
+
+}
+
+.stream ul {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(6, 177, 250);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+ul li {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1rem 0;
+    border-radius: 10px;
+    font-size: 25px;
+    padding-left: 3rem;
+}
+
+ul li p {
+    font-size: 17px;
+
+}
+
+ul li i {
+    width: 15%;
+    height: 100%;
+
+    /* border: 2px solid blue; */
+
+    /* margin-left: 1rem; */
+    margin-right: 1rem;
+}
+
+.add {
+    height: 20%;
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: 20px;
+    color: white;
+    background-color: #81c9c9;
+
+}
+
+.ActiveGames {
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 222, 179, 0.388);
+
+
+}
+
+.ActiveGamesContainer {
+    height: 90%;
+    width: 90%;
+    /* border: 2px solid rgb(68, 255, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.navbar {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.navbar .title {
+    height: 60%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: flex-end;
+    color: purple;
+}
+
+.navbar .level {
+    height: 30%;
+    width: 30%;
+    /* border: 2px solid blue; */
+    border-radius: 30px;
+    background-color: white;
+}
+
+.gameLevel {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem 0;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px #81c9c9;
+}
+
+.gameLevel .image {
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.image img {
+    height: 100%;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.gameLevel .middle {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+
+}
+
+.gameName {
+    height: 60%;
+    width: 100%;
+    color: purple;
+    /* border: 2px solid black; */
+
+}
+
+.gameNameLevel {
+    height: 30%;
+    width: 70%;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    background-color: #88c5c598;
+}
+
+.gameLevel .percentage {
+    height: 100%;
+    width: 5%;
+    /* border: 2px solid red; */
+    color: purple;
+
+
+}

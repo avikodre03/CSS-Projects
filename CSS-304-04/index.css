@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+
+}
+
+.vootNavBar {
+    height: 10%;
+    width: 80%;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    background-color: rgb(13, 6, 32, 1);
+}
+
+.vootNavBar .myVoot {
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
+    color: white;
+
+}
+
+.vootNavBarCatagary {
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid gold; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.vootNavBarCatagaryDiv {
+    height: 90%;
+    width: 10%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* padding-right: 1rem; */
+}
+
+.vootNavBarCatagaryDiv1 {
+    height: 90%;
+    width: fit-content;
+    /* border: 2px solid palegoldenrod; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.vootNavBarCatagaryDiv p {
+    color: rgb(145, 142, 154, 1);
+}
