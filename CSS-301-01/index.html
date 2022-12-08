@@ -6,74 +6,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .outerostdiv {
+            width: 100vw;
+            height: 1000px;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .div1 {
+            width: 35%;
+            height: 6%;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+        }
+
+        .div2 {
+            width: 50%;
+            height: 17%;
+            border: 2px solid rgb(15, 8, 8);
+            display: flex;
+            /* flex-direction: row; */
+            overflow: hidden;
+            background-color: black;
+
+
+
+        }
+
+        .class1 {
+            width: 40%;
+            height: 105%;
+            margin-left: -30px;
+            margin-bottom: -10px;
+            transform: perspective(700px) rotateX(346deg);
+            transform-origin: -200% 50%;
+            background-color: #5d5d5d;
+            opacity: 0.8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .class1 p {
+            font-family: 'Roboto', sans-serif;
+            margin-right: -100px;
+            color: white;
+            font-size: 80px;
+            transform: perspective(500px) rotateX(10deg);
+            transform-origin: 100% 50%;
+        }
+
+        .class2 {
+            width: 20%;
+            height: 106%;
+            transform: skew(345deg);
+            background-color: #3a3a3a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .class2 h1 {
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            font-size: 70px;
+        }
+
+        .class3 {
+            width: 40%;
+            height: 118%;
+            margin-bottom: -10px;
+            transform: perspective(900px) rotateX(338deg);
+            transform-origin: -200% 50%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .class3 h1 {
+            font-family: 'Roboto', sans-serif;
+            color: #0a9db3;
+            font-size: 80px;
+            font-weight: bold;
+            margin-bottom: 80px;
+            margin-left: 20px;
+            transform: perspective(800px) rotateX(10deg);
+            transform-origin: 100% 50%;
+        }
+
+        .div3 {
+            width: 35%;
+            height: 70%;
+            /* border: 2px solid red; */
+        }
+    </style>
 </head>
 
 <body>
-    
-        <div class="maincontainer">
-            <h2>Typography in design System</h2>
-
-            <div class="container">
-                <div class="leftcontainer">
-                    <p>Aa</p>
-
-                </div>
-                <div class="middlecontainer">
-                    <h1>Aa</h1>
-
-                </div>
-                <div class="rightcontainer">
-                    <div class="insideleft">
-                        <h1>Aa</h1>
-                    </div>
-                </div>
+    <div class="outerostdiv">
+        <div class="div1">
+            <h4>Typography in Design Systems
+            </h4>
+        </div>
+        <div class="div2">
+            <div class="class1">
+                <p>Aa</p>
             </div>
-            <div class="para">
-                <p>
-                    Everyday digital interfaces include a rich variety of images, visualizations, and other pictures.
-                    However, more than anything else, they are made of words. Oh so many words. As we equip teams to
-                    design and code usable, consistent, beautiful interfaces using systems, it’s essential that words
-                    depend on a strong foundation of typography.</p>
-
-                <p>I’ll admit, I am not a typography expert. I lack a graphic design degree. I’m never the person
-                    choosing a font, scaling type, or finessing letter spacing. As a result, I’ve always been reluctant
-                    to write about typography.</p>
-
-                <p>On the other hand, I am a pattern hunter. Over the years, I’ve contributed to many design systems
-                    that set a foundation for typography. Each traversed of steps and decisions to set a foundation and
-                    apply it to an emerging library of interface components. This article summarizes those patterns.</p>
-
-                <p>Typography starts by setting a foundation of font families and weights along with fallbacks. It then
-                    explores how to build hierarchy using size, color, additional details like line-height, and layering
-                    responsiveness. Those models are then applied to components in a system’s library (like Article and
-                    Header) as well as custom components made by other teams.
-                </p>
-                <div class="video">
-                    <iframe width="500" height="315" src="https://www.youtube.com/embed/O-XrRQf7BPM"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-                <p>Ekstra bilgi, bu video, Photoshop ve diğer grafik tasarım programları için video dersler hazırlayan
-                    Lynda tarafından Photoshop’un 25. Yılını kutlamak amacıyla hazırlanmış.</p>
-
-                <div class="italicpara">
-                    <p>Originally published at www ferdicildiz.net on july 18,2015.</p>
-                </div>
-
+            <div class="class2">
+                <h1>Aa</h1>
             </div>
-
-
-
+            <div class="class3">
+                <h1>Aa</h1>
+            </div>
+        </div>
+        <div class="div3">
+            <p>Everyday digital interfaces include a rich variety of images, visualizations, and other pictures.
+                However, more than anything else, they are made of words. Oh so many words. As we equip teams to design
+                and code usable, consistent, beautiful interfaces using systems, it’s essential that words depend on a
+                strong foundation of typography.</p>
+            <p>I’ll admit, I am not a typography expert. I lack a graphic design degree. I’m never the person choosing a
+                font, scaling type, or finessing letter spacing. As a result, I’ve always been reluctant to write about
+                typography.</p>
+            <p>On the other hand, I am a pattern hunter. Over the years, I’ve contributed to many design systems that
+                set a foundation for typography. Each traversed of steps and decisions to set a foundation and apply it
+                to an emerging library of interface components. This article summarizes those patterns.</p>
+            <p>Typography starts by setting a foundation of font families and weights along with fallbacks. It then
+                explores how to build hierarchy using size, color, additional details like line-height, and layering
+                responsiveness. Those models are then applied to components in a system’s library (like Article and
+                Header) as well as custom components made by other teams.</p>
+            <img width="100%" src="./photo.png" alt="">
+            <p>Ekstra bilgi, bu video, Photoshop ve diğer grafik tasarım programları için video dersler hazırlayan Lynda
+                tarafından Photoshop’un 25. Yılını kutlamak amacıyla hazırlanmış.</p><br>
+            <i>
+                <p>Originally published at www.ferdicildiz.net on July 18, 2015.</p>
+            </i><br>
 
         </div>
-
-    
-
+    </div>
 </body>
 
 </html>
