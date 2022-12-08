@@ -33,4 +33,4 @@ https://avikodre03.github.io/CSS-Projects/CSS-305-04/index
 https://avikodre03.github.io/CSS-Projects/CSS-305-05/index
 
 #CSS-307-01
-https://avikodre03.github.io/CSS-Projects/CSS-307-01/index
+https://avikodre03.github.io/CSS-Projects/CSS-307-01/indee
