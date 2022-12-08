@@ -6,7 +6,7 @@ https://avikodre03.github.io/CSS-Projects/CSS-301-01/index
 https://avikodre03.github.io/CSS-Projects/CSS-302-01/index
 
 #CSS-303-01
-https://avikodre03.github.io/CSS-Projects/CSS-304-01/index
+https://avikodre03.github.io/CSS-Projects/CSS-303-01/index
 
 #CSS-304-01
 https://avikodre03.github.io/CSS-Projects/CSS-304-01/index
