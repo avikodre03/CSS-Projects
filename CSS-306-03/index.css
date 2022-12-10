@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.maincontainer {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbarcontent img {
+    width: 90%;
+    height: 100%;
+}
+
+
+
+
+.content {
+    width: 100%;
+    height: 80%;
+}
+
+.contentupper {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentupperfirst {
+    width: 50%;
+    height: 100%;
+}
+
+.contentupperfirstupper {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentupperfirstupperfirst {
+    width: 45%;
+    height: 100%;
+    border: 2px black solid;
+    border-left: transparent;
+
+}
+
+.contentupperfirstuppersecond {
+    width: 55%;
+    height: 100%;
+    border: 2px black solid
+}
+
+.contentupperfirstlower {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentupperfirstlowerfirst {
+    width: 60%;
+    height: 100%;
+    border: 2px black solid;
+    border-left: transparent;
+}
+
+.contentupperfirstlowersecond {
+    width: 40%;
+    height: 100%;
+    border: 2px black solid
+}
+
+.contentuppermiddle {
+    width: 25%;
+    height: 100%;
+    border: 2px black solid
+}
+
+.contentupperlast {
+    width: 40%;
+    height: 100%;
+    border: 2px black solid;
+    border-right: transparent;
+
+
+}
+
+.contentlower {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentlowerfirst {
+    width: 35%;
+    height: 100%;
+    border: 2px black solid;
+    border-left: transparent;
+
+}
+
+.contentlowermiddle {
+    width: 40%;
+    height: 100%;
+    border: 2px black solid
+}
+
+.contentlowerlast {
+    width: 25%;
+    height: 100%;
+    border: 2px black solid;
+    border-right: transparent;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+
+}

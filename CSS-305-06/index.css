@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.mainContainerSub {
+    height: 100%;
+    width: 90%;
+    /* border: 2px solid red; */
+
+}
+
+.nabar {
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+}
+
+.navbarLeftSection {
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.navbarLeftSection img {
+    height: 100%;
+    width: 25%;
+}
+
+.navbarRightSection {
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+.RightSectionLeft {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid #5e5e5e; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #5e5e5e;
+    font-size: 20px;
+}
+
+.icon p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.RightSectionRight {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.join {
+    height: 80%;
+    width: 30%;
+    border: 1px solid #5e5e5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #5e5e5e;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    font-weight: 500;
+
+}
+
+.RightSectionRight button {
+    height: 85%;
+    width: 25%;
+    color: #2977c9;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid #2977c9;
+
+    border-radius: 30px;
+}
+
+.mainContainerSubbottom {
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+}
+
+.bottomLeftContainer {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid green; */
+}
+
+.header {
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid green; */
+    margin-top: 2rem;
+}
+
+
+.header p {
+    font-size: 55px;
+    color: #8f5849;
+    font-weight: 100;
+
+
+}
+
+.inputs {
+    height: 50%;
+    width: 70%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+.inputs input {
+    height: 22%;
+    width: 100%;
+    /* margin: 1rem 0; */
+    border: 1.5px solid black;
+
+}
+
+.inputs p {
+    color: #5e5e5e;
+}
+
+.inputs a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.inputs button {
+    height: 17%;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #2977c9;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    /* margin: 1rem; */
+
+
+}
+
+.signin {
+    height: 20%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid  green; */
+}
+
+.signin fieldset {
+    height: 25%;
+    width: 70%;
+    text-align: center;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+
+}
+
+legend {
+    color: #5e5e5e;
+    padding: 0 10px;
+}
+
+.signin a {
+    text-decoration: none;
+
+}
+
+.signin p {
+    color: #5e5e5e;
+}
+
+.bottomRightContainer {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.bottomRightContainer img {
+    height: 95%;
+    width: 95%;
+
+}

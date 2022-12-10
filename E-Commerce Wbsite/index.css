@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    border: 2px solid red;
+}
+
+/* ========================================================================= */
+.navbar {
+    height: 10vh;
+    display: flex;
+
+}
+
+.navbarLeftcontainer {
+    height: 100%;
+    width: 30%;
+    border: 2px solid green;
+}
+
+.navbarRightcontainer {
+    height: 100%;
+    width: 70%;
+    border: 2px solid green;
+    display: flex;
+}
+
+.navbarRightLeftContainer {
+    height: 100%;
+    width: 70%;
+    border: 2px solid blue;
+}
+
+.navbarRightRightContainer {
+    height: 100%;
+    width: 30%;
+    border: 2px solid blue;
+}
+
+/* ========================================================================= */
+.landingSection {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    border: 2px solid black;
+    background-color: #E9E9EB;
+
+}
+.landingSectionTop{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+
+.landingSectionLeftContainer {
+    height: 100%;
+    width: 60%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.landingSectionLeftContainer h1 {
+    height: 20%;
+    width: 80%;
+    border: 2px solid blue;
+}
+
+.landingSectionLeftContainer p {
+    height: 20%;
+    width: 80%;
+    border: 2px solid blue;
+
+}
+
+.landingSectionLeftContainer button {
+    height: 20%;
+    width: 80%;
+    border: 2px solid blue;
+
+}
+
+.landingSectionRightContainer {
+    height: 100%;
+    width: 40%;
+    border: 2px solid green;
+}
+
+/* ========================================================================= */
+.productCollectionSecton {
+    height: 40vh;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -128px;
+    width: 85%;
+
+
+}
+
+.productCollectionSectonMainContainer {
+    height: 95%;
+    width: 32%;
+    border: 2px solid blue;
+    display: flex;
+    /* background-color: white; */
+}
+.productCollectionSectonMainContainerLeftContainer{
+    width:60% ;
+    height: 100%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.productCollectionSectonMainContainerLeftContainer h1 {
+width: 80%;
+height: 20%;
+border: 2px solid red;
+}
+.productCollectionSectonMainContainerLeftContainer p {
+width: 80%;
+height: 20%;
+border: 2px solid red;
+}
+.productCollectionSectonMainContainerLeftContainer a {
+    width: 80%;
+    height: 20%;
+    border: 2px solid red;
+}
+.productCollectionSectonMainContainerRightContainer{
+    width: 40%;
+    height: 100%;
+    border: 2px solid green;
+}
+
+/* ========================================================================= */
+.howitworkSection {
+    height: 90vh;
+
+}
+
+/* ========================================================================= */
+.purchasingSection {
+    height: 40vh;
+
+}
+
+/* ========================================================================= */
+.keyFeatursSecton {
+    height: 60vh;
+
+}
+
+/* ========================================================================= */
+.paymentmethodsecton {
+    height: 20vh;
+}
+
+/* ========================================================================= */
+.bannerSection {
+    height: 40vh;
+}
+
+/* ========================================================================= */
+.footerSection {
+    height: 50vh;
+}
